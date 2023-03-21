@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dead end';
+    box-sizing: border-box;
+    font-size: 24px;
+}
+body{ 
+    background: url(../img/bosque.gif) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px black;
+}
+.contenedorImagen{
+    display: flex;
+    justify-content: center;
+}
+#imagen{
+    width: 200px;
+    overflow: hidden;
+}
+#nuevoJuego{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    font-size: 24px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: none;
+    border-radius: 10px;
+}
+#nuevoJuego:hover{
+    background-color: #880707;
+    color: white;
+    cursor: pointer;
+}
+#palabraFracturada{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#palabraFracturada span{
+    vertical-align: bottom;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 8px;
+    display: inline-block;
+    
+}
+#respuesta{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px black;
+}
+#teclado{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+#teclado button{
+    width: 40px;
+    height: 40px;
+    padding: 6px 0;
+    text-align: center;
+}
+#teclado button:hover{
+    background-color: #880707;
+    color: white;
+    cursor: pointer;
+}
+#teclado button:active{
+    background-color: grey;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+    padding-bottom: 0;
+}
